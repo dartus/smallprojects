@@ -4,7 +4,7 @@ def capitalIndexes(capitalstring):
     for i in range (len(capitalstring)):
         if ord(capitalstring[i]) >= 65 and ord(capitalstring[i])<=90: 
             indexes.append(i)
-    return print(indexes)
+    print(indexes)
 
 capitalIndexes(string)
             
