@@ -1,13 +1,13 @@
 string = input("Enter some letters and I will return the middle letter")
 
 def mid(midstring):
-    stringlen = len(string)
+    stringlen = len(midstring)
     letters = []
     middle = stringlen // 2
     if stringlen % 2 == 0:
         print(' " " ')
     else:
-        print(string[middle])
+        print(midstring[middle])
         
     
     #for i in range(stringlen):
